@@ -1,21 +1,9 @@
 # 4.2-Duplicated-Orders
 
-Jak wspomnieliśmy we wprowadzeniu, rozpoczynamy serię zadań powtórkowych, które pozwolą na utrwalenie wiedzy zdobytej do tej pory.
+Tym razem, w ramach zadania utrwalającego wiedzę, zajmiemy się rozwiązaniem istotnego problemu.
 
-Wykorzystaj poniższą listę do iteracji w pętli for:
+Wyobraź sobie sytuację, w której okazuje się, że kod napisany przez dewelopera z innej firmy przechowuje zduplikowane wartości dotyczące zamówień w sklepie internetowym. Przez to wysyłane są czasem 2 produkty zamiast 1.
 
-List<String> companies = new ArrayList();
+Z tego co wiadomo developer użył ArrayList do przechowywania numerów zamówienia, czy jest to dobry pomysł?
 
-companies.add("DELL");
-
-companies.add("APPLE");
-
-companies.add("SAMSUNG");
-
-companies.add("SONY");
-
-companies.add("ALCATEL");
-
-Używając konkatenacji zapisz wszystkie nazwy po przecinku tak aby otrzymać wynik:
-
-DELL, APPLE, SAMSUNG, SONY, ALCATEL
+Twoim zadaniem jest wykonanie własnej implementacji przechowywania numerów zamówień. Pamiętaj, aby sprawdzić, czy Twoje rozwiązanie pozwala na przechowywanie zduplikowanych wartości!
